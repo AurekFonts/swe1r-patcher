@@ -1,5 +1,7 @@
 cmake_minimum_required(VERSION 3.0)
 
+project(SWE1Rmod)
+
 add_executable(swe1r-patcher main.c)
 
 if (WIN32)
